@@ -1,0 +1,232 @@
+* {
+  font-family: outfit;
+}
+a:hover {
+  color: #a555ed;
+  cursor: pointer;
+}
+
+/* navbar */
+.navbar .navbar-brand img {
+  width: 120px;
+}
+.navbar .navbar-nav {
+  margin-left: auto;
+}
+.navbar .nav-link {
+  margin-right: 30px;
+}
+.navbar-nav .active {
+  color: #7800e3;
+  font-weight: 600;
+}
+.navbar .nav-link:hover {
+  color: #a555ed;
+}
+.navbar .btn {
+  background: linear-gradient(to right, #a555ed, #7800e3);
+  border: none;
+  color: white;
+  width: 120px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.navbar .btn:hover {
+  background: none;
+  color: white;
+  border: 1px solid #a555ed;
+  font-weight: 600;
+}
+/* navbar */
+
+/* menu */
+#menu .nav-link {
+  color: white;
+}
+#menu .nav .active {
+  background: none;
+  border: 1px solid #a555ed;
+}
+#menu .nav-link {
+  margin-right: 20px;
+}
+#menu .content {
+  color: white;
+}
+#menu .content .carousel-inner {
+  border-radius: 20px;
+}
+#menu .content .carousel-caption {
+  background-color: rgba(0, 0, 0, 0.60);
+  border-radius: 10px;
+}
+#menu .content .sale {
+  margin-top: 50px;
+}
+#menu .content .sale .card {
+  background: none;
+  color: white;
+}
+#menu .content .sale .card img {
+  border-radius: 20px;
+}
+#menu .content .sale .card .card-title {
+  text-decoration: none;
+}
+#menu .content .sale .card small {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: grey;
+}
+
+#menu .content .reccommended {
+  margin-top: 50px;
+}
+
+#menu .content .reccommended .card {
+  background: none;
+  color: white;
+  margin-top: 30px;
+}
+#menu .content .reccommended .card img {
+  border-radius: 20px;
+}
+#menu .content .reccommended .card .card-title{
+  text-decoration: none;
+}
+#menu .content .feature {
+  margin-top: 50px;
+}
+#menu .content .feature .card {
+  background: none;
+  color: white;
+}
+#menu .content .feature .card img {
+  border-radius: 20px;
+}
+#menu .content .feature .card .card-title {
+  text-decoration: none;
+}
+#menu .content .feature .card .browse {
+  text-decoration: none;
+  color: white;
+}
+
+#menu .content #popular .reccommended {
+  margin-top: 0;
+}
+
+#menu .content #popular .free-games{
+  margin-top: 50px;
+}
+#menu .content .free-games .card {
+  background: none;
+  color: white;
+  margin-top: 30px;
+}
+#menu .content .free-games .card img {
+  border-radius: 20px;
+}
+#menu .content .free-games .card .card-title{
+  text-decoration: none;
+}
+
+#menu .popular-news {
+  margin-top: 50px;
+}
+#menu .popular-news h6 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: grey;
+}
+#menu .popular-news a {
+  text-decoration: none;
+  color: white;
+}
+#menu .popular-news a:hover {
+  text-decoration: underline;
+  color: #a555ed;
+}
+#menu .popular-news .card img {
+  border-radius: 20px;
+}
+#menu .popular-news .card .card-text small {
+  color: grey;
+}
+/* menu */
+
+/* about */
+#about {
+  color: white;
+  margin-top: 30px;
+}
+#about h1 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 600;
+}
+/* about */
+
+/* news */
+#news .btn {
+  background: linear-gradient(to right, #a555ed, #7800e3);
+  border: none;
+  color: white;
+  width: 120px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+#news .btn:hover {
+  background: none;
+  color: white;
+  border: 1px solid #a555ed;
+  font-weight: 600;
+}
+#news .card img {
+  border-radius: 20px;
+}
+#news .card a {
+  text-decoration: none;
+}
+#news .card small {
+  color: grey;
+}
+/* news */
+
+/* news detail */
+#news-detail {
+  color: white;
+}
+/* news detail */
+
+
+/* footer */
+footer {
+  color: white;
+  margin-top: 50px;
+  padding: 30px 30px;
+}
+footer h6 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: grey;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer a:hover{
+  color: #a555ed;
+}
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer li {
+ display: inline;
+ padding-right: 20px; 
+}
+footer span {
+  color: grey;
+}
+/* footer */
+
