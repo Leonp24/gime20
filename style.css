@@ -197,6 +197,43 @@ a:hover {
 }
 /* news detail */
 
+/* detail */
+#detail {
+  color: white;
+}
+#detail .breadcrumb a {
+  text-decoration: none;
+  color: #a555ed;
+}
+#detail .game-image {
+  border-radius: 20px;
+}
+#detail h6 {
+  color: grey;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+#detail h1 {
+  font-weight: 600;
+}
+#detail table {
+  width: 100%;
+}
+#detail table th {
+  color: grey;
+}
+#detail .btn {
+  background: linear-gradient(to right, #a555ed, #7800e3);
+  border: none;
+  color: white;
+  width: 100%;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+#detail .cost {
+  color: #a555ed;
+}
+/* detail */
+
 
 /* footer */
 footer {
