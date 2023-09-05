@@ -23,7 +23,7 @@ a:hover {
 .navbar .nav-link:hover {
   color: #a555ed;
 }
-.navbar .btn {
+.navbar .navbar-nav .btn {
   background: linear-gradient(to right, #a555ed, #7800e3);
   border: none;
   color: white;
@@ -222,17 +222,39 @@ a:hover {
 #detail table th {
   color: grey;
 }
-#detail .btn {
+#detail .trigger .btn {
+  width: 100%;
+}
+#detail .buy {
   background: linear-gradient(to right, #a555ed, #7800e3);
   border: none;
   color: white;
-  width: 100%;
-  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+#detail .modal .btn {
+  background: linear-gradient(to right, #a555ed, #7800e3);
+  border: none;
+  color: white;
+  width: 50%;
+}
+#detail .modal-body {
+  padding: 30px;
+}
+#detail .modal .btn {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+#detail .modal .btn-close {
+  margin-left: auto;
+  display: flex ;
 }
 #detail .cost {
   color: #a555ed;
 }
 /* detail */
+
+/* order */
+/* order */
 
 
 /* footer */
