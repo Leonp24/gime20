@@ -23,18 +23,22 @@ a:hover {
 .navbar .nav-link:hover {
   color: #a555ed;
 }
-.navbar .navbar-nav .btn {
+.navbar .navbar-nav .btn-login {
   background: linear-gradient(to right, #a555ed, #7800e3);
   border: none;
   color: white;
   width: 120px;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
-.navbar .btn:hover {
+.navbar .btn-login:hover {
   background: none;
   color: white;
   border: 1px solid #a555ed;
   font-weight: 600;
+}
+.navbar .divider {
+  border-left: 1px solid grey;
+  margin-right: 20px;
 }
 /* navbar */
 
@@ -254,7 +258,40 @@ a:hover {
 /* detail */
 
 /* order */
+#order .nav-pills .active {
+  background: linear-gradient(to right, #a555ed, #7800e3);
+  border: none;
+  color: white;
+}
+#order .nav-pills button {
+  margin-right: 20px;
+  color: white;
+}
+#order a {
+  text-decoration: none;
+}
+#order .card {
+  border-radius: 20px;
+}
+#order .card img {
+  border-radius: 20px;
+}
 /* order */
+
+/* scan */
+#scan a {
+  text-decoration: none;
+}
+#scan .qr-code {
+  width: 100%;
+}
+/* scan */
+
+/* confirm */
+#confirm a {
+  text-decoration: none;
+}
+/* confirm */
 
 
 /* footer */

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirm Payment</title>
+
+    <!-- my css -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <script src="./js/bootstrap.bundle.js"></script>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+
+    <!-- font -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap');
+    </style>
+
+    <!-- iconiy -->
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+</head>
+<body style="background-color: #131315;">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./assets/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+              <a class="nav-link" href="./about-page.html">About</a>
+              <a class="nav-link" href="./news-page.html">News</a>
+              <div class="divider"></div>
+              <a class="nav-link btn" href="./cart-page.html"><span class="iconify" data-icon="solar:cart-check-linear"></span> Cart</a>
+              <a class="nav-link" href="./library-page.html">Library</a>
+            </div>
+          </div>
+        </div>
+    </nav>
+    <!-- navbar -->
+
+    <!-- scan -->
+    <div id="scan">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <!-- breadcrumb -->
+                    <nav aria-label="breadcrumb" data-bs-theme="dark">
+                        <ol class="breadcrumb mt-3">
+                        <li class="breadcrumb-item"><a href="./game-detail.html">Resident Evil Village</a></li><!--nama game-->
+                        <li class="breadcrumb-item active">Billing Information</li>
+                        <li class="breadcrumb-item active">Confirm Payment</li> 
+                        <li class="breadcrumb-item active" aria-current="page">Scan to pay</li> 
+                        </ol>
+                    </nav>
+                    <!-- breadcrumb -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                  <div class="card mb-4" style="width: 100%;" data-bs-theme="dark">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="./assets/image8.png" class="img-fluid" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h4 class="card-title"><b>Resident Evil Village</b></h4>
+                          <p class="card-text"><small class="text-secondary">Cost :</small> <h5><b>IDR 200.000</b></h5></p>
+                          <hr>
+                          <div class="row mt-3 mb-3">
+                          <h5 class="text-secondary">Buyer Information</h5>
+                            <div class="col">
+                              <label for="Full Name">Full Name</label>
+                              <h5 class="buyer-name mt-2">Jhon Doe</h5>
+                            </div>
+                            <div class="col">
+                              <label for="Phone Number">Phone Number</label>
+                              <h5 class="buyer-phone mt-2">081234567890</h5>
+                            </div>
+                          </div>
+                          <hr>
+                          <h5 class="text-secondary">Payment Method</h5>
+                          <h5 class="payment-method mt-3">Gopay</h5>
+                          <div class="row">
+                            <div class="col-lg-3">
+                                <img class="qr-code mt-2" src="./assets/qr-code.png" alt="">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- scan -->
+
+    <!-- footer -->
+    <footer class="bg-dark">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="link">
+                <h6>Quick Link</h6>
+                <ul>
+                  <li><a href="./about-page.html">About</a></li>
+                  <li><a href="./news-page.html">News</a></li>
+                  <li><a href="./index.html">Discover</a></li>
+                  <li><a href="./index.html">Popular</a></li>
+                  <li><a href="./sales-page.html">Sales & Special</a></li>
+                  <li><a href="./free-page.html">Free Games</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-6 text-end">
+              <span>&copy; Copyright Gime, 2023 All Rights Reserved</span>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- footer -->
+</body>
+</html>
