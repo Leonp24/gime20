@@ -278,6 +278,7 @@ a:hover {
 }
 /* order */
 
+
 /* scan */
 #scan a {
   text-decoration: none;
@@ -285,14 +286,82 @@ a:hover {
 #scan .qr-code {
   width: 100%;
 }
+#scan .card {
+  border-radius: 20px;
+}
+#scan .card img {
+  border-radius: 20px;
+}
 /* scan */
 
 /* confirm */
 #confirm a {
   text-decoration: none;
 }
+#confirm .card {
+  border-radius: 20px;
+}
+#confirm .card img {
+  border-radius: 20px;
+}
 /* confirm */
 
+/* success */
+#success {
+  color: white;
+}
+#success h1 {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 10px;
+}
+#success .card {
+  border-radius: 20px;
+}
+#success .card img {
+  border-radius: 20px;
+}
+#success .status {
+  display: inline;
+  background-color: green;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+#success .card-text {
+  display: flex;
+  justify-content: center;
+}
+#success table {
+  width: 50%;
+}
+#success .download {
+  background: linear-gradient(to right, #a555ed, #7800e3);
+  border: none;
+  color: white;
+}
+#success .btn {
+  margin-right: 20px;
+}
+#success .free-games .card {
+  background: none;
+  color: white;
+}
+#success .free-games a {
+  text-decoration: none;
+}
+/* success */
+
+/* cart */
+#cart .card .game-image {
+  width: 200px;
+  height: 100px;
+  border-radius: 20px;
+}
+#cart .card-body {
+  padding: 20px;
+}
+/* cart */
 
 /* footer */
 footer {

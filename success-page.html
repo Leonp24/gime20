@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Confirm Payment</title>
+    <title>Payment Success!</title>
 
     <!-- my css -->
     <link rel="stylesheet" href="./style.css">
@@ -45,59 +45,95 @@
     </nav>
     <!-- navbar -->
 
-    <!-- confirm -->
-    <div id="confirm">
+    <!-- success -->
+    <div id="success" class="mt-5 mb-5">
         <div class="container">
-            <div class="row">
+            <div class="row mt-3">
                 <div class="col">
-                    <!-- breadcrumb -->
-                    <nav aria-label="breadcrumb" data-bs-theme="dark">
-                        <ol class="breadcrumb mt-3">
-                        <li class="breadcrumb-item"><a href="./game-detail.html">Resident Evil Village</a></li><!--nama game-->
-                        <li class="breadcrumb-item"><a href="./order-page.html">Billing Information</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Confirm Payment</li> 
-                        </ol>
-                    </nav>
-                    <!-- breadcrumb -->
+                    <h1>Congratulation!</h1>
+                    <p>You have successfully paid this game, You can download and play the game now!</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col">
                   <div class="card mb-4" style="width: 100%;" data-bs-theme="dark">
                     <div class="row g-0">
-                      <div class="col-md-4">
+                      <div class="col-md-2">
                         <img src="./assets/image8.png" class="img-fluid" alt="...">
                       </div>
                       <div class="col-md-8">
                         <div class="card-body">
-                          <h4 class="card-title"><b>Resident Evil Village</b></h4>
-                          <p class="card-text"><small class="text-secondary">Cost :</small> <h5><b>IDR 200.000</b></h5></p>
-                          <hr>
-                          <div class="row mt-4 mb-4">
-                          <h5 class="text-secondary">Buyer Information</h5>
+                          <h4 class="card-title mt-3"><b>Resident Evil Village</b></h4>
+                          <table class="mt-3">
+                            <tr>
+                                <th>Cost</th>
+                                <th>Status</th>
+                            </tr>
+                            <tr>
+                                <td><h5>IDR 200.000</h5></td>
+                                <td><h5 class="status">Paid</h5></td>
+                            </tr>
+                          </table>
+                          <div class="row mt-5">
                             <div class="col">
-                              <label for="Full Name">Full Name</label>
-                              <h5 class="buyer-name mt-3">Jhon Doe</h5>
+                                <h6><b>Download this game now?</b></h6>
+                                <a href="#" class="btn download">Download Now</a>
+                                <a href="./library-page.html" class="btn btn-outline-light">Download Later</a>
                             </div>
-                            <div class="col">
-                              <label for="Phone Number">Phone Number</label>
-                              <h5 class="buyer-phone mt-3">081234567890</h5>
-                            </div>
-                          </div>
-                          <hr>
-                          <h5 class="text-secondary">Payment Method</h5>
-                          <h5 class="payment-method mt-3">Gopay</h5>
-                          <a href="./scan-page.html" class="btn btn-outline-light mt-4 w-100">Continue</a>
-                          <p class="text-secondary mt-3">*Please ensure the data entered is correct before clicking the 'continue' button.</p>
+                          </div>                          
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
             </div>
+            <p>*Note : Your game is automatically added to your library</p>
+            <!-- Reccommended-->
+            <div class="free-games mt-5">
+              <h5>You may also like</h5>
+              <div class="row mt-3">
+                <div class="col-lg-3">
+                  <div class="card" style="width: 100%;">
+                    <img src="./assets/image14.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <a href="./game-detail.html" class="card-title"><h5>Asphalt 9 Legends</h5></a>
+                      <h4 class="cost">Free</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="card" style="width: 100%;">
+                    <img src="./assets/image15.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <a href="./game-detail.html" class="card-title"><h5>League Of Legends</h5></a>
+                      <h4 class="cost">Free</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="card" style="width: 100%;">
+                    <img src="./assets/image16.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <a href="./game-detail.html" class="card-title"><h5>Warriors Orochi 4</h5></a>
+                      <h4 class="cost">Free</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="card" style="width: 100%;">
+                    <img src="./assets/image17.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <a href="./game-detail.html" class="card-title"><h5>Efootball 2023</h5></a>
+                      <h4 class="cost">Free</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Reccommended -->
         </div>
     </div>
-    <!-- confirm -->
+    <!-- success -->
 
     <!-- footer -->
     <footer class="bg-dark">
@@ -116,12 +152,12 @@
                 </ul>
               </div>
             </div>
-            <div class="col-lg-6 text-end">
+            <div class="col-lg-6 text-end mt-3">
               <span>&copy; Copyright Gime, 2023 All Rights Reserved</span>
             </div>
           </div>
         </div>
-      </footer>
-      <!-- footer -->
+    </footer>
+    <!-- footer -->
 </body>
 </html>
