@@ -363,6 +363,33 @@ a:hover {
 }
 /* cart */
 
+/* login */
+#login {
+  margin-top: 50px;
+  color: white;
+}
+#login a {
+  text-decoration: none;
+}
+#login h5 {
+  text-align: center;
+}
+#login p {
+  text-align: center;
+}
+.bg-login {
+  padding: 30px;
+  border-radius: 20px;
+  width: 400px;
+  box-shadow: 0px 0px 15px 10px #A555ED;
+}
+.bg-login .btn {
+  background: linear-gradient(to right, #a555ed, #7800e3);
+  border: none;
+  color: white;
+}
+/* login */
+
 /* footer */
 footer {
   color: white;
