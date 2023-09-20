@@ -380,7 +380,7 @@ a:hover {
 .bg-login {
   padding: 30px;
   border-radius: 20px;
-  width: 400px;
+  width: 100%;
   box-shadow: 0px 0px 15px 10px #A555ED;
 }
 .bg-login .btn {
@@ -389,6 +389,60 @@ a:hover {
   color: white;
 }
 /* login */
+
+/* signup */
+#signup {
+  margin-top: 50px;
+  color: white;
+}
+#signup a {
+  text-decoration: none;
+}
+#signup h5 {
+  text-align: center;
+}
+#signup p {
+  text-align: center;
+}
+.bg-signup {
+  padding: 30px;
+  border-radius: 20px;
+  width: 100%;
+  box-shadow: 0px 0px 15px 10px #A555ED;
+}
+.bg-signup .btn {
+  background: linear-gradient(to right, #a555ed, #7800e3);
+  border: none;
+  color: white;
+}
+/* signup */
+
+/* account */
+#account {
+  color: white;
+}
+#account .card {
+  padding: 30px;
+}
+#account .card label {
+  text-transform: uppercase;
+  color: grey;
+  letter-spacing: 5px;
+  padding-top: 5px;
+}
+#account .form-modal label {
+  margin-top: 5px;
+}
+/* account */
+
+/* library */
+#library {
+  color: white;
+}
+#library a {
+  text-decoration: none;
+}
+/* library */
 
 /* footer */
 footer {
