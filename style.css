@@ -54,6 +54,9 @@ a:hover {
 /* navbar */
 
 /* hero */
+#hero .nav {
+  margin-top: 10px;
+}
 #hero .nav .nav-link {
   color: white;
   margin-right: 20px;
@@ -147,6 +150,8 @@ a:hover {
 }
 #detail .game-image {
   border-radius: 20px;
+  width: 100%;
+  margin-bottom: 10px;
 }
 #detail h6 {
   color: grey;
@@ -164,6 +169,7 @@ a:hover {
 }
 #detail .trigger .btn {
   width: 100%;
+  margin-bottom: 10px;
 }
 #detail .buy {
   background: linear-gradient(to right, #a555ed, #7800e3);
@@ -180,7 +186,6 @@ a:hover {
   padding: 30px;
 }
 #detail .modal .btn {
-  margin: auto;
   display: flex;
   justify-content: center;
 }
@@ -227,6 +232,7 @@ a:hover {
 }
 #scan .card img {
   border-radius: 20px;
+  margin-bottom: 10px;
 }
 /* scan */
 
@@ -249,7 +255,7 @@ a:hover {
 #success h1 {
   text-transform: uppercase;
   font-weight: 600;
-  letter-spacing: 10px;
+  letter-spacing: 5px;
 }
 #success .card {
   border-radius: 20px;
@@ -293,6 +299,9 @@ a:hover {
   width: 200px;
   height: 100px;
   border-radius: 20px;
+}
+#cart .card {
+  margin-bottom: 10px;
 }
 #cart .card a {
   text-decoration: none;
@@ -378,7 +387,44 @@ a:hover {
 #library a {
   text-decoration: none;
 }
+#library .card {
+  margin-bottom: 10px;
+}
 /* library */
+
+/* sales & special */
+#sales .onsale .card {
+  background: none;
+  border: none;
+}
+#sales .onsale .card img {
+  border-radius: 20px;
+}
+#sales .special .card {
+  border: none;
+  background: none;
+}
+#sales .special .card img {
+  border-radius: 20px;
+}
+#sales .special .card-img-overlay {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.584), rgba(0, 0, 0, 0));
+}
+#sales .special .deskripsi {
+  position: absolute;
+  bottom: 20px;
+}
+/* sales & special */
+
+/* free game */
+#freegame .card {
+  background: none;
+  border: none;
+}
+#freegame .card img {
+  border-radius: 20px;
+}
+/* free game */
 
 /* footer */
 footer {
@@ -409,6 +455,7 @@ footer li {
 }
 footer span {
   color: grey;
+  padding-top: 20px;
 }
 /* footer */
 

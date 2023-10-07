@@ -1,171 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Libraries</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Libraries</title>
 
-    <!-- my css -->
-    <link rel="stylesheet" href="./style.css">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
 
-    <!-- bootstrap -->
-    <link rel="stylesheet" href="./css/bootstrap.css">
-    <script src="./js/bootstrap.bundle.js"></script>
+  <!-- My CSS -->
+  <link rel="stylesheet" href="./style.css" />
 
-    <!-- favicon -->
-    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="./css/bootstrap.css" />
 
-    <!-- font -->
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap');
-    </style>
+  <!-- Bootstrap JS -->
+  <script src="./js/bootstrap.bundle.js"></script>
 
-    <!-- iconiy -->
-    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+  <!-- Font & Bg color -->
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap");
+
+    body {
+      background-color: #131315;
+    }
+  </style>
 
 </head>
-<body style="background-color: #131315;">
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="./assets/logo.png" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link" aria-current="page" href="./index.html">Home</a>
-              <a class="nav-link" href="./about-page.html">About</a>
-              <a class="nav-link" href="./news-page.html">News</a>
-              <div class="divider"></div>
-              <a class="nav-link btn" href="./cart-page.html"><span class="iconify" data-icon="solar:cart-check-linear"></span> Cart</a>
-              <a class="nav-link" href="./library-page.html">Library</a>
-            </div>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="./assets/logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+          <a class="nav-link" href="./about-page.html">About</a>
+          <a class="nav-link" href="./news-page.html">News</a>
+          <div class="divider"></div>
+          <a class="nav-link btn" href="./cart-page.html"><span class="iconify"
+              data-icon="solar:cart-check-linear"></span> Cart</a>
+          <a class="nav-link" href="./library-page.html">Library</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar -->
+
+  <!-- account -->
+  <div id="account">
+    <div class="container mt-5">
+      <div class="row">
+        <h5>Account Info</h5>
+        <div class="card bg-dark" data-bs-theme="dark">
+          <div class="col-lg-6">
+            <label for="username">Username</label>
+            <h2 class="username"><b>Jhon_Doer2023</b></h2>
+            <label for="fullname">Fullname</label>
+            <h5 class="fullname">Jhon Doe</h5>
+            <label for="phone">Phone</label>
+            <p class="phone">0812345678</p>
           </div>
-        </div>
-    </nav>
-    <!-- navbar -->
+          <div class="col-lg-6">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Edit Info
+            </button>
+            <a href="./index.html" class="btn text-danger">Sign Out</a>
 
-    <!-- account -->
-    <div id="account">
-        <div class="container mt-5">
-            <div class="row">
-                <h5>Account Info</h5>
-                <div class="card bg-dark" data-bs-theme="dark">
-                    <div class="col-lg-6">
-                        <label for="username">Username</label>
-                        <h2 class="username"><b>Jhon_Doer2023</b></h2>
-                        <label for="fullname">Fullname</label>
-                        <h5 class="fullname">Jhon Doe</h5>
-                        <label for="phone">Phone</label>
-                        <p class="phone">0812345678</p>
-                    </div>
-                    <div class="col-lg-6">
-                        <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            Edit Info
-                        </button>
-                        <a href="./index.html" class="btn text-danger">Sign Out</a>
-                        
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                <h1 class="modal-title fs-5" id="exampleModalLabel">Edit Info</h1>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                <!-- form -->
-                                <form action="" class="form-modal">
-                                    <label for="username">Username</label>
-                                    <input type="text" class="form-control" placeholder="input username">
-                                    <label for="fullname">Fullname</label>
-                                    <input type="text" class="form-control" placeholder="input fullname">
-                                    <label for="phone">Phone Number</label>
-                                    <input type="text" class="form-control" placeholder="start with 08">
-                                    <label for="password">Change Password</label>
-                                    <input type="password" class="form-control" placeholder="change password">
-                                </form>
-                                <!-- form -->
-                                </div>
-                                <div class="modal-footer">
-                                <button type="button" class="btn text-danger" data-bs-dismiss="modal">Cancel</button>
-                                <button type="button" class="btn btn-outline-light">Save changes</button>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- account -->
-
-    <!-- library -->
-    <div id="library">
-        <div class="container mt-5">
-            <div class="row">
-                <h5>Library</h5>
-                <div class="col-lg-2">
-                  <div class="card text-center" style="width: 100%;" data-bs-theme="dark">
-                    <img src="./assets/image8.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <a href="./game-detail.html" class="card-title"><h6>Resident Evil : Village</h6></a>
-                      <h5 class="cost">IDR 200.000</h5>
-                      <a href="./order-page.html" class="btn btn-outline-light mt-3 mb-3">Download</a>
-                    </div>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Edit Info</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <!-- form -->
+                    <form action="" class="form-modal">
+                      <label for="username">Username</label>
+                      <input type="text" class="form-control" placeholder="input username">
+                      <label for="fullname">Fullname</label>
+                      <input type="text" class="form-control" placeholder="input fullname">
+                      <label for="phone">Phone Number</label>
+                      <input type="text" class="form-control" placeholder="start with 08">
+                      <label for="password">Change Password</label>
+                      <input type="password" class="form-control" placeholder="change password">
+                    </form>
+                    <!-- form -->
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn text-danger" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-outline-light">Save changes</button>
                   </div>
                 </div>
-                <div class="col-lg-2">
-                  <div class="card text-center" style="width: 100%;" data-bs-theme="dark">
-                    <img src="./assets/image7.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <a href="./game-detail.html" class="card-title"><h6>Ghost Of Tsushima</h6></a>
-                      <h5 class="cost">IDR 200.000</h5>
-                      <a href="./order-page.html" class="btn btn-outline-light mt-3 mb-3">Download</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-2">
-                  <div class="card text-center" style="width: 100%;" data-bs-theme="dark">
-                    <img src="./assets/image9.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <a href="./game-detail.html" class="card-title"><h6>APEX Legends</h6></a>
-                      <h5 class="cost">IDR 200.000</h5>
-                      <a href="./order-page.html" class="btn btn-outline-light mt-3 mb-3">Download</a>
-                    </div>
-                  </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- library -->
-
-    <!-- footer -->
-    <footer class="bg-dark">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="link">
-                <h6>Quick Link</h6>
-                <ul>
-                  <li><a href="./about-page.html">About</a></li>
-                  <li><a href="./news-page.html">News</a></li>
-                  <li><a href="./index.html">Discover</a></li>
-                  <li><a href="./index.html">Popular</a></li>
-                  <li><a href="./sales-page.html">Sales & Special</a></li>
-                  <li><a href="./free-page.html">Free Games</a></li>
-                </ul>
               </div>
             </div>
-            <div class="col-lg-6 text-end">
-              <span>&copy; Copyright Gime, 2023 All Rights Reserved</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- account -->
+
+  <!-- library -->
+  <div id="library">
+    <div class="container mt-5">
+      <div class="row">
+        <h5>Library</h5>
+        <div class="col-lg-2">
+          <div class="card text-center" style="width: 100%;" data-bs-theme="dark">
+            <img src="./assets/image8.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a href="./game-detail.html" class="card-title">
+                <h6>Resident Evil : Village</h6>
+              </a>
+              <h5 class="cost">IDR 200.000</h5>
+              <a href="./order-page.html" class="btn btn-outline-light mt-3 mb-3">Download</a>
             </div>
           </div>
         </div>
-      </footer>
-      <!-- footer -->
+        <div class="col-lg-2">
+          <div class="card text-center" style="width: 100%;" data-bs-theme="dark">
+            <img src="./assets/image7.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a href="./game-detail.html" class="card-title">
+                <h6>Ghost Of Tsushima</h6>
+              </a>
+              <h5 class="cost">IDR 200.000</h5>
+              <a href="./order-page.html" class="btn btn-outline-light mt-3 mb-3">Download</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="card text-center" style="width: 100%;" data-bs-theme="dark">
+            <img src="./assets/image9.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a href="./game-detail.html" class="card-title">
+                <h6>APEX Legends</h6>
+              </a>
+              <h5 class="cost">IDR 200.000</h5>
+              <a href="./order-page.html" class="btn btn-outline-light mt-3 mb-3">Download</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- library -->
+
+  <!-- footer -->
+  <footer class="bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="link">
+            <h6>Quick Link</h6>
+            <ul>
+              <li><a href="./about-page.html">About</a></li>
+              <li><a href="./news-page.html">News</a></li>
+              <li><a href="./index.html">Discover</a></li>
+              <li><a href="./index.html">Popular</a></li>
+              <li><a href="./sales-page.html">Sales & Special</a></li>
+              <li><a href="./free-page.html">Free Games</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-6 text-end">
+          <span>&copy; Copyright Gime, 2023 All Rights Reserved</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer -->
 </body>
+
 </html>
