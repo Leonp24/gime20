@@ -42,7 +42,6 @@ a:hover {
   color: white;
 }
 
-
 .navbar .nav-link {
   margin-right: 30px;
 }
@@ -52,6 +51,14 @@ a:hover {
 }
 
 /* navbar */
+
+/* navbar when login */
+
+.navbar .divider {
+  border-left: 1px solid grey;
+  margin-right: 20px;
+}
+/* navbar when login */
 
 /* hero */
 #hero .nav {
@@ -191,7 +198,7 @@ a:hover {
 }
 #detail .modal .btn-close {
   margin-left: auto;
-  display: flex ;
+  display: flex;
 }
 #detail .cost {
   color: #a555ed;
@@ -218,7 +225,6 @@ a:hover {
   border-radius: 20px;
 }
 /* order */
-
 
 /* scan */
 #scan a {
@@ -326,7 +332,7 @@ a:hover {
   padding: 30px;
   border-radius: 20px;
   width: 100%;
-  box-shadow: 0px 0px 15px 10px #A555ED;
+  box-shadow: 0px 0px 15px 10px #a555ed;
 }
 .bg-login .btn {
   background: linear-gradient(to right, #a555ed, #7800e3);
@@ -353,7 +359,7 @@ a:hover {
   padding: 30px;
   border-radius: 20px;
   width: 100%;
-  box-shadow: 0px 0px 15px 10px #A555ED;
+  box-shadow: 0px 0px 15px 10px #a555ed;
 }
 .bg-signup .btn {
   background: linear-gradient(to right, #a555ed, #7800e3);
@@ -441,7 +447,7 @@ footer a {
   text-decoration: none;
   color: white;
 }
-footer a:hover{
+footer a:hover {
   color: #a555ed;
 }
 footer ul {
@@ -450,12 +456,11 @@ footer ul {
   padding: 0;
 }
 footer li {
- display: inline;
- padding-right: 20px; 
+  display: inline;
+  padding-right: 20px;
 }
 footer span {
   color: grey;
   padding-top: 20px;
 }
 /* footer */
-
